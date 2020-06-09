@@ -85,3 +85,43 @@
         justify-content: flex-start;
     }
 }
+
+@media (max-width: 320px) {
+    #page-home header img {
+        width: 85%;
+    }
+
+    #page-home .content header {
+      margin: 20px;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 110px;
+        z-index: 1;
+    }
+
+    #page-home #modal .content form .field {
+        height: 40%;
+    }
+
+    #page-home main a {
+        margin: 20px 0px 10px;
+        width: 110%;
+    }
+
+    #page-home main {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #page-home main p {
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+    
+    #page-home main h1 {
+        font-size: 2em;
+        
+    }
+}
